@@ -10,7 +10,7 @@ package cpfcnpj_test
 import (
 	"testing"
 
-	"cpfcnpj"
+	"github.com/cll0ud/cpfcnpj"
 )
 
 func TestNewValidCPF(t *testing.T) {
