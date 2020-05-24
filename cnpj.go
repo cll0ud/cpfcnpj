@@ -2,7 +2,7 @@
 // Autor: Marcelo Gomes Jr <marcelo.gomes.junior@gmail.com>
 // Criado: abr/2020
 //
-// golang
+// cpfcnpj
 //
 
 package cpfcnpj
@@ -25,7 +25,7 @@ var (
 // CNPJ representa o documento Cadastro Nacional da Pessoa Jurídica
 //
 // Não é necessária a utilização das funções 'NewCNPJ' ou 'NewValidCNPJ',
-// elas são apenas helpers e é possível criar um objeto CNPJ duretamente com
+// elas são apenas auxiliares e é possível criar um objeto CNPJ diretamente com
 // uma simples conversão (cpfcnpj.CNPJ("00000000000191") ou cpfcnpj.CNPJ("00.000.000/0001-91"))
 type CNPJ string
 

@@ -108,6 +108,8 @@ func calculateDigit(v string, weight int) string {
 		// resolver: recuperar o valor int (entre 48 e 57 como dito acima)
 		// e subtrair o valor de '0' (48), isso vai retornar o número que
 		// queremos
+		// Explico mais aqui:
+		// https://aciddesign.com.br/posts/lidando-com-runes/
 		sum += int(char-'0') * weight
 		weight--
 		if weight < 2 {

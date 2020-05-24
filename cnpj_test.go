@@ -2,7 +2,7 @@
 // Autor: Marcelo Gomes Jr <marcelo.gomes.junior@gmail.com>
 // Criado: abr/2020
 //
-// golang
+// cpfcnpj
 //
 
 package cpfcnpj_test
